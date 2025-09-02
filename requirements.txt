@@ -1,0 +1,7 @@
+fastapi
+dotenv
+groq
+openai
+uvicorn
+pydantic
+ipykernel #used for interactive enviornemnt
