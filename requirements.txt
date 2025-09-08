@@ -5,3 +5,4 @@ openai
 uvicorn
 pydantic
 ipykernel #used for interactive enviornemnt
+langchain_core
