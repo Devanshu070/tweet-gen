@@ -1,4 +1,3 @@
-from openai import OpenAI
 from app.config import llm_config
 from app.prompts import tweet_generator_prompt
 
@@ -14,6 +13,9 @@ def generate_tweet(prompt: str) -> str:
         messages=[{'role':'user', 'content' : formated_prompt}]
     )
     return response.choices[0].message.content
+
+# def generate_tweet_with_feedback(prompt:str, tweet:str, feedback:str) ->str:
+#     template = 
 
 if __name__ == '__main__':
     # to run file for debugging

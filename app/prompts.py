@@ -11,3 +11,4 @@ def tweet_generator_prompt() :
         input_variables=['prompt']
     )
     return formateed_prompt
+
